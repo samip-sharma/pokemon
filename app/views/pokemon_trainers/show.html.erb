@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pokemon_trainer.name %>
+</p>
+
+<%= link_to 'Edit', edit_pokemon_trainer_path(@pokemon_trainer) %> |
+<%= link_to 'Back', pokemon_trainers_path %>
